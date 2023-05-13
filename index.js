@@ -1,1 +1,4 @@
-ReactDOM.render(<p>Hi, my name is Pres</p>, document.getElementById("root"))
+ReactDOM.render(<ul>
+    <li>Mayai</li>
+    <li>Soda</li>
+</ul>, document.getElementById("root"))
