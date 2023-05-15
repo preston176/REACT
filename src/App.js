@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
 import Footer from './Footer'
+import MainContent from "./MainContent";
 //custom components
 // function App() {
 //   return (
@@ -25,27 +26,12 @@ import Footer from './Footer'
 //   );
 // }
 
-
-function Lists(){
-  return (
-    <>
-    <ul>
-    <li>Eggs</li>
-    <li>Water</li>
-    <li>Milk</li>
-  </ul>
-  </>
-  )
-}
-
-
-
 function ReturnList(){
 
   return(
     <div>
       <Header />
-      <Lists />
+      <MainContent />
       <Footer />
   </div>
   )
