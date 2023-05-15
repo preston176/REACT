@@ -23,17 +23,38 @@ import './App.css';
 //   );
 // }
 
+function Header(){
+  return(
+<header>
+  <h1>I want to buy the following</h1>
+  </ header>
+  )
+}
+function Lists(){
+  return (
+    <>
+    <ul>
+    <li>Eggs</li>
+    <li>Water</li>
+    <li>Milk</li>
+  </ul>
+  </>
+  )
+}
+
+function Footer(){
+  return (
+    <footer>&copy; 2023</footer>
+  )
+}
 
 function ReturnList(){
 
   return(
     <div>
-  <h1>I want to buy the following</h1>
-  <ul>
-    <li>Eggs</li>
-    <li>Water</li>
-    <li>Milk</li>
-  </ul>
+      <Header />
+      <Lists />
+      <Footer />
   </div>
   )
 }
