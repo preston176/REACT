@@ -2,6 +2,8 @@ import { react } from "react";
 import { ReactDOM } from "react-dom/client";
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header'
+import Footer from './Footer'
 //custom components
 // function App() {
 //   return (
@@ -23,21 +25,7 @@ import './App.css';
 //   );
 // }
 
-function Header(){
-  return(
-    <header>
-    <nav className="nav">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" className="nav-logo" />
-  <ul className="nav-items">
-    <li>Pricing</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-  </nav>
-  <h1>I want to buy the following</h1>
-  </ header>
-  )
-}
+
 function Lists(){
   return (
     <>
@@ -50,11 +38,7 @@ function Lists(){
   )
 }
 
-function Footer(){
-  return (
-    <footer className="foot-section">&copy; 2023</footer>
-  )
-}
+
 
 function ReturnList(){
 
