@@ -4,7 +4,7 @@ function Joke(props) {
   return (
     <div>
         <h3>{props.setup}</h3>
-        <h3>{props.punchline}</h3>
+        <p>{props.punchline}</p>
         <hr />    
      </div>
   )
