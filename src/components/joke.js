@@ -1,8 +1,12 @@
 import React from 'react'
 
-function Joke() {
+function Joke(props) {
   return (
-    <h1>Joke here</h1>
+    <div>
+        <h3>{props.setup}</h3>
+        <h3>{props.punchline}</h3>
+        <hr />    
+     </div>
   )
 }
 
