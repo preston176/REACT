@@ -3,6 +3,7 @@ import Joke from './components/joke'
 function App() {
   return (
     <div>
+      <Joke punchline="no setup" />
       <Joke setup="I got my daughter a fridge for her birthday."
       punchline="I can't wait to see her face light up when she opens it." />
       <Joke setup="How did the hacker escape the police?"

@@ -3,7 +3,7 @@ import React from 'react'
 function Joke(props) {
   return (
     <div>
-        <h3>{props.setup}</h3>
+        <h3 style={{display: props.setup ? "block" : "none"}}  >{props.setup}</h3>
         <p>{props.punchline}</p>
         <hr />    
      </div>
